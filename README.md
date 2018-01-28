@@ -57,8 +57,8 @@ Comparative study of all four Classifiers
 
 As per this business problem, a classifier would be considered better if it has a higher recall value because the bank would be more interested in knowing the actual positives i.e. number of customers who would likely be a defaulter for the next month.
 The F1 score (also F-score or F-measure) is a measure of a test's accuracy. It considers both the precision p and the recall r of the test to compute the score. There are two other measures namely F2, which weighs recall higher than precision (by placing more emphasis on false negatives), and F0.5, which weighs recall lower than precision (by attenuating the influence of false negatives).
-Thus, the beta value would be 2.
-Weighted F- Measure 
+Since we would be using F2 while computing the weighted F-measure , the beta value used here is 2.
+ 
 
 |     Models	  |    Weighted F-measure  |
 |     ------      |   -------------------  |
