@@ -16,30 +16,29 @@ N.B. The data belongs to year 2005.
 The features are listed down in a tabular form for a better understanding.
 Attribute	          Explanation
 ID	                Unique Id of each record
-Credit Balance	    Credit amount on the given credit card
-Gender	            Gender of the customer i.e. male or female
-Education	          Education level of the customer i.e. high school, graduate, university, others
-Marital Status	    Marital status i.e. married, single, others
+Credit Balance	        Credit amount on the given credit card
+Gender	                Gender of the customer i.e. male or female
+Education	        Education level of the customer i.e. high school, graduate, university, others
+Marital Status	        Marital status i.e. married, single, others
 Age	                Age of the customer
-Pay_0	              Repayment status in September
-Pay_2	              Repayment status in August
+Pay_0	                Repayment status in September
+Pay_2	                Repayment status in August
 Pay_3              	Repayment status in July
-Pay_4	              Repayment status in June
-Pay_5	              Repayment status in May
-Pay_6	              Repayment status in April
-Bill_Amt1	          Bill Amount in September
-Bill_Amt2	          Bill Amount in August
-Bill_Amt3	          Bill Amount in July
-Bill_Amt4	          Bill Amount in June
-Bill_Amt5	          Bill Amount in May
-Bill_Amt6	          Bill Amount in April
-Pay_Amt1	          Amount paid in September
-Pay_Amt2	          Amount paid in August
-Pay_Amt3	          Amount paid in July
-Pay_Amt4	          Amount paid in June
-Pay_Amt5	          Amount paid in May
-Pay_Amt6	          Amount paid in April
-
+Pay_4	                Repayment status in June
+Pay_5	                Repayment status in May
+Pay_6	                Repayment status in April
+Bill_Amt1	        Bill Amount in September
+Bill_Amt2	        Bill Amount in August
+Bill_Amt3	        Bill Amount in July
+Bill_Amt4	        Bill Amount in June
+Bill_Amt5	        Bill Amount in May
+Bill_Amt6	        Bill Amount in April
+Pay_Amt1	        Amount paid in September
+Pay_Amt2	        Amount paid in August
+Pay_Amt3	        Amount paid in July
+Pay_Amt4	        Amount paid in June
+Pay_Amt5	        Amount paid in May
+Pay_Amt6	        Amount paid in April
 Default_payment_next_month	Either 0 or 1 -  0 means for the next payment the customer is not a defaulter and 1 means the customer is a defaulter
 
 We have used following classifiers : C5.0, c5.0Cost,rpart,random forest
@@ -56,10 +55,10 @@ The F1 score (also F-score or F-measure) is a measure of a test's accuracy. It c
 Thus, the beta value would be 2.
 
 Weighted F- Measure
-Models	Weighted F-measure
+Models	    Weighted F-measure
 C5.0	        0.366698825
-C5.0Cost	    0.355532394
-Rpart    	    0.341257727
+C5.0Cost	0.355532394
+Rpart    	0.341257727
 Random Forest	0.392959322
 
 Recommendation: As per the weighted F-measure, Random Forest is the best classifier.  This would help the bank to identify its potential risk customers, monitor proactively and take actions as required.
